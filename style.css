@@ -1,0 +1,130 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.main-section{
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    height: 150vh;
+}
+
+.left-section{
+    background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);;
+    width: 25%;
+    height: 115vh;
+    position: relative;
+    left: 20%;
+    margin-top: 10%;
+    filter: drop-shadow(30px 10px 4px #4444dd);
+    overflow: auto;
+    
+}
+
+.right-section{
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    width: 35%;
+    height: 115vh;
+    position: relative;
+    left: 20%;
+    margin-top: 10%;
+    filter: drop-shadow(30px 10px 4px #4444dd);
+    overflow: auto;
+}
+
+
+/*-------------------header--------------------------------------------*/
+
+.header h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.header h2{
+    font-size: 25px;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.education h2{
+    font-size: 20px;
+    margin-left: 20px;
+    padding-top: 30px;
+}
+
+.education ul{
+    font-size: 15px;
+}
+
+.skills h2{
+    font-size: 20px;
+    margin-left: 20px;
+    padding-top: 30px;
+}
+
+.skills ul{
+    font-size: 15px;
+}
+
+
+/*-------------------image---------------------------------------------*/
+
+.aboutme img{
+    margin-left: 30%;
+    margin-top: 15px;
+    border-radius: 100px;
+    height: 150px;
+    width: 150px;
+    filter: drop-shadow( 10px 8px 10px #4444dd);
+}
+
+.aboutme h2{
+    font-size: 20px;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.aboutme p{
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+/*-------------------hobbies---------------------------------------------*/
+
+.hobbies h2{
+    font-size: 20px;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.hobbies li{
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+/*-------------------extras---------------------------------------------*/
+
+.extras h2{
+    font-size: 20px;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.extras li{
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+/*-------------------contact---------------------------------------------*/
+
+.contact h2{
+    font-size: 20px;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.contact ul{
+    font-size: 15px;
+    margin-left: -15px;
+}
